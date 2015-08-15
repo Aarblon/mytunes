@@ -4,9 +4,10 @@ var SongQueueView = Backbone.View.extend({
 
   initialize: function() {
     this.render();
-      this.collection.on('change:songQueue', function(model){
-      this.playerView.setSong(model.get('songQueue'));
-    }, this);
+      // this.collection.on('change:songQueue', function(model){
+    //   this.playerView.setSong(model.get('songQueue'));
+    // }, this);
+
   },
 
   render: function() {

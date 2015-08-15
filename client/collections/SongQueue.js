@@ -2,7 +2,7 @@
 var SongQueue = Songs.extend({
 
   initialize: function(){
-    console.log("we are lost!!!")
+
   },
 
   playFirst: function(){
